@@ -8,7 +8,7 @@ public:
     long long arr[100] ;
     long long fib(int n) {
 
-        if ( n <= 1) return n ;
+        if ( n <= 1 ) return n ;
         
         if ( arr[n] != 0 ) return arr[n] ;
 
